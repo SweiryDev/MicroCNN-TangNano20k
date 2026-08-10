@@ -1,0 +1,11 @@
+[General]
+file=gowin_dhcen
+ipc_version=4
+module=Gowin_DHCEN
+target_device=gw2ar18c-000
+type=clock_dhcen
+version=1.0
+
+[Config]
+Enable_CLKOUTN=false
+Language=0

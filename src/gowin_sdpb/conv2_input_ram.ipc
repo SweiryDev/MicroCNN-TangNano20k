@@ -1,0 +1,17 @@
+[General]
+file=conv2_input_ram
+ipc_version=4
+module=conv2_input_ram
+target_device=gw2ar18c-000
+type=ram_sdpb
+version=1.0
+
+[Config]
+BYTE_SIZE=0
+DEPTH_A=256
+DEPTH_B=256
+LANG=0
+READ=0
+RESET_MODE=true
+WIDTH_A=8
+WIDTH_B=8

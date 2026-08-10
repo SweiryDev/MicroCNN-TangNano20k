@@ -1,0 +1,33 @@
+# Gowin EDA specific ignores
+impl/
+temp/
+*.user
+*.log
+*.rpt
+*.txt
+*.html
+*.xml
+*.bin
+*.binx
+*.db
+*.fs
+*.timing_paths
+
+# ModelSim / QuestaSim ignores
+work/
+*.wlf
+transcript
+_info
+*.qdb
+*.qpg
+*.qtl
+_vmake
+
+# Python ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db

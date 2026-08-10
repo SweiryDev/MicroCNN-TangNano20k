@@ -1,0 +1,15 @@
+[General]
+file=img_g_rom
+ipc_version=4
+module=img_g_rom
+target_device=gw2ar18c-000
+type=ram_prom
+version=1.0
+
+[Config]
+DEPTH=784
+LANG=0
+MEM_FILE=../../hardware_roms/img_g.mi
+READ=0
+RESET_MODE=true
+WIDTH=8

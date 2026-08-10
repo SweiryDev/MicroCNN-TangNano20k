@@ -1,0 +1,53 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
+    <FileList>
+        <File path="src/argmax_layer.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv1_fsm.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv1_param_rom.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv1_to_conv2_router.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv2_fsm.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv2_line_buffer_wrapper.sv" type="file.verilog" enable="1"/>
+        <File path="src/conv2_param_rom.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc1_buffer_ram.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc1_fsm.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc1_param_rom.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc1_reduction_tree.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc2_buffer_ram.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc2_fsm.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc2_param_rom.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc2_reduction_tree.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc_npu_array_gowin.sv" type="file.verilog" enable="1"/>
+        <File path="src/fc_tdm_router.sv" type="file.verilog" enable="1"/>
+        <File path="src/gowin_dcs/gowin_dcs.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_mult/gowin_mult.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_multalu/dsp_multalu_accum.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/img_b_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/img_g_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_prom/img_r_rom.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_rpll/gowin_rpll.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/conv2_input_ram.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb_fc1.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_sdpb/gowin_sdpb_fc2.v" type="file.verilog" enable="1"/>
+        <File path="src/img_ram.sv" type="file.verilog" enable="1"/>
+        <File path="src/img_rom_readers.sv" type="file.verilog" enable="1"/>
+        <File path="src/master_pipeline_fsm.sv" type="file.verilog" enable="1"/>
+        <File path="src/maxpool2x2.sv" type="file.verilog" enable="1"/>
+        <File path="src/npu_top.sv" type="file.verilog" enable="1"/>
+        <File path="src/single_channel_line_buffer.sv" type="file.verilog" enable="1"/>
+        <File path="src/soc_controller.sv" type="file.verilog" enable="1"/>
+        <File path="src/spatial_3x3_mac_gowin.sv" type="file.verilog" enable="1"/>
+        <File path="src/tdm_fc_router.sv" type="file.verilog" enable="1"/>
+        <File path="src/tdm_npu_router.sv" type="file.verilog" enable="1"/>
+        <File path="src/top.sv" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx.sv" type="file.verilog" enable="1"/>
+        <File path="src/uart_tx.sv" type="file.verilog" enable="1"/>
+        <File path="src/unified_line_buffer.sv" type="file.verilog" enable="1"/>
+        <File path="src/ws_conv_core_gowin.sv" type="file.verilog" enable="1"/>
+        <File path="src/NPU.cst" type="file.cst" enable="1"/>
+        <File path="src/NPU.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

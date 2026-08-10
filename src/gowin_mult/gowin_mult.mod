@@ -1,0 +1,25 @@
+-series GW2AR
+-device GW2AR-18
+-device_version C
+-package QFN88
+-part_number GW2AR-LV18QN88C8/I7
+
+
+-mod_name Gowin_MULT
+-file_name gowin_mult
+-path /home/ubuair/Desktop/Gowin_IDE/NPU/src/gowin_mult/
+-type MULT
+-file_type vlg
+-source_a parallel
+-source_b parallel
+-width_a 9
+-width_b 8
+-data_type_a signed
+-data_type_b signed
+-en_shiftout_a false
+-en_shiftout_b false
+-reset_mode sync
+-ina_reg bypass
+-inb_reg bypass
+-pipe_reg bypass
+-out_reg bypass

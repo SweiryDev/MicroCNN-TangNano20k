@@ -1,0 +1,26 @@
+-series GW2AR
+-device GW2AR-18
+-device_version C
+-package QFN88
+-part_number GW2AR-LV18QN88C8/I7
+
+
+-mod_name dsp_multalu_accum
+-file_name dsp_multalu_accum
+-path /home/ubuair/Desktop/Gowin_IDE/NPU/src/gowin_multalu/
+-type MULTALU
+-file_type vlg
+-multalu_mode 2
+-width_a 8
+-width_b 8
+-width_c 32
+-data_type_a unsigned
+-data_type_b signed
+-reset_mode sync
+-ina_reg bypass
+-inb_reg bypass
+-inc_reg bypass
+-accload_reg0 bypass
+-accload_reg1 bypass
+-pipe_reg bypass
+-out_reg registered

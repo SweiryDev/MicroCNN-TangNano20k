@@ -1,0 +1,12 @@
+[General]
+file=gowin_dcs
+ipc_version=4
+module=Gowin_DCS
+target_device=gw2ar18c-000
+type=clock_dcs
+version=1.0
+
+[Config]
+DCS_Mode=CLK0_GND
+Glitchless_Mode=true
+Language=0

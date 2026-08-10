@@ -1,0 +1,17 @@
+[General]
+file=gowin_sdpb_fc2
+ipc_version=4
+module=gowin_sdpb_fc2
+target_device=gw2ar18c-000
+type=ram_sdpb
+version=1.0
+
+[Config]
+BYTE_SIZE=0
+DEPTH_A=32
+DEPTH_B=4
+LANG=0
+READ=0
+RESET_MODE=true
+WIDTH_A=8
+WIDTH_B=64
