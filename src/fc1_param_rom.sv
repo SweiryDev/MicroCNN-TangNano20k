@@ -17,8 +17,8 @@ module fc1_param_rom (
     logic [31:0] bias_mem   [0:31];
     
     initial begin
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/fc1_weights_64b.hex", weight_mem);
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/fc1_biases.hex", bias_mem);
+        $readmemh("hardware_roms/fc1_weights_64b.hex", weight_mem);
+        $readmemh("hardware_roms/fc1_biases.hex", bias_mem);
     end
 
     // Synchronous Read 

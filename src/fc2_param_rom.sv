@@ -13,8 +13,8 @@ module fc2_param_rom (
     logic [31:0] bias_mem   [0:7];
 
     initial begin
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/fc2_weights_64b.hex", weight_mem);
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/fc2_biases.hex", bias_mem);
+        $readmemh("hardware_roms/fc2_weights_64b.hex", weight_mem);
+        $readmemh("hardware_roms/fc2_biases.hex", bias_mem);
     end
 
     // Pure, standard ROM logic

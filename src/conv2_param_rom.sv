@@ -22,8 +22,8 @@ module conv2_param_rom (
     logic [575:0] filter_read_data; 
 
     initial begin
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/conv2_weights.hex", weight_mem);
-        $readmemh("/home/ubuair/Desktop/Gowin_IDE/NPU/hardware_roms/conv2_biases.hex", bias_mem);
+        $readmemh("hardware_roms/conv2_weights.hex", weight_mem);
+        $readmemh("hardware_roms/conv2_biases.hex", bias_mem);
     end
 
     // Flattening (Forcing LUT implementation over BRAM)
