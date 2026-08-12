@@ -50,4 +50,8 @@
         <File path="src/NPU.cst" type="file.cst" enable="1"/>
         <File path="src/NPU.sdc" type="file.sdc" enable="1"/>
     </FileList>
+    <OptionList>
+        <Option type="verilog_language" value="sysv-2017"/>
+        <Option type="top_module" value="top"/>
+    </OptionList>
 </Project>
